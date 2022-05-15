@@ -1,0 +1,637 @@
+/* css da home */
+body{
+    margin: 0%;
+    font-family:'Baloo 2', Arial;
+    background-color: #ffffff;
+}
+
+*,*::after,*::before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 0%;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(50, 50, 170, 0.829);
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    margin: 0%;
+    text-align: center;
+}
+
+.TopNav{
+    overflow: hidden;
+    width: 100vw;
+    background-color: rgb(126, 126, 126);
+
+}
+
+.TopNav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.TopNav a:hover{
+    background-color: rgb(36, 36, 75);
+    color: white;
+} 
+
+
+
+section div .caixa{
+    background-color: rgba(0, 0, 0, 0.61);
+    color: white;
+    font-size: 14px;
+    width: 520px;
+    padding: 50px;
+    margin-top: -6%;
+
+}
+
+section div .caixa:hover {
+    background-color:rgb(36, 36, 75);
+}
+
+/*css do login*/
+
+.login{
+    margin-top: 80px;
+    
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.card{
+    background: rgba(0, 0, 0, 0.60);
+    padding: 40px;
+    border-radius: 2px;
+    width: 280px;
+
+}
+
+.card-header{
+    padding-bottom: 50px;
+    opacity: 0.8;
+    color: #fff;
+
+}
+
+card-header::after{
+    content: " ";
+    width: 70px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+.card-content label{
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.usuario{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.usuario input{
+    margin-top: 10px;
+    padding: 0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+.submit{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    color: #e1e1e1;
+    margin: 0 0;
+}
+.submit a{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/** FAZ A ANIMAÇÃO DA FOTO*/
+.galery {
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(247, 247, 247);
+    overflow: hidden;
+    margin-left: 16%;
+    margin-top: 10%;
+
+}
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+.galery .fotos img {
+    width: 19.9%;
+    height: 900px;
+
+}
+
+
+@keyframes animacao {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+    75% { margin-left: -300%; }
+    95% { margin-left: -300%; }
+    100% { margin-left: -400%; }
+}
+
+ footer{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    background-color:rgb(111, 111, 153);
+ }
+
+.Tudo{
+    width: 100vw;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+ }
+
+#Info1 {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    height: 300px;  
+    display: inline-block;
+    margin: 5%;
+    border-top: rgb(111, 111, 153);
+    border-radius: 38px;
+}
+
+#Info1:hover {
+    background-color: rgb(182, 161, 194);
+    color: black;
+    padding: 20px;
+}
+#Info2 {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 5%;
+    border-radius: 38px;
+}
+
+#Info2:hover {
+    background-color: rgb(182, 161, 194);
+    color: black;
+    padding: 20px;
+}
+
+#Info3 {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 5%;
+    border-radius: 38px;
+}
+
+#Info3:hover {
+    background-color: rgb(182, 161, 194);
+    color: black;
+    padding: 20px;
+}
+
+.NavAlun{
+    background-color: rgb(233, 157, 44);
+}
+
+.principalbebe{
+    width: 250px;
+    height: 50px;
+    margin-left: 50%;
+    
+}
+
+/* Calendario */
+
+.calendario {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+header {
+
+    text-align: center;
+    border-bottom: 2px solid whitesmoke;
+    
+}
+
+main {
+    margin-top: 150px;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.month {
+    background-color: whitesmoke;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.month h1 {
+    background-color: #333;
+    ;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+
+}
+.days,
+.date {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    list-style: none;
+    gap: 3px;
+    margin: 5px;
+    margin-right: 22px;
+
+}
+
+.days li {
+    background-color: #222;
+    color: white;
+    border: .5px solid gray;
+    text-align: center;
+    padding: 5px;
+}
+
+.date li {
+    background-color:rgb(153, 153, 153);
+    border: .5px solid gray;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.container{
+    flex-direction: column;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+}
+
+.imagem{
+    margin: 50px 0;
+    border-radius: 20px;
+}
+
+.Aulas{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aula a{
+    font-size: 20px;
+    color: #222;
+
+}
+.box{
+    color: #222;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 380px;
+}
+
+.containerNotas{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.boxNotas{
+    width: 900px;
+    display: flex;
+    
+}
+
+.boxNotasPrincipal{
+    display: flex;
+}
+
+.boxNotas a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.subBoxNotas{
+    margin: 10px;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 34, 34, 0.39);
+}
+.boxNotasInput{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.containerPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+#botao{
+    width: 180px;
+    height: 30px;
+}
+
+.boxFalta{
+    width: 900px;
+    display: flex;
+}
+.subBoxFalta{
+    margin: 10px;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(34, 34, 34, 0.39);
+}
+.salas li{
+    background-color: rgba(34, 34, 34, 0.37);
+    padding: 20px;
+    margin: 10px;
+}
+
+.salas li a {
+    color: white;
+    font-weight: bold;
+}
+
+
+/*Financeiro*/
+
+
+.financeiro nav{
+    overflow: hidden;
+    width: 100vw;
+    background-color: rgb(126, 126, 126);
+
+
+}
+
+.financeiro a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.financeiro a:hover{
+    background-color: rgb(36, 36, 75);
+    color: white;
+}
+
+.caixaa{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    padding: 40px 20px 40px 60px;
+    color: black;
+}
+
+
+
+.dados{
+    width: 234px;
+    float: left;
+    color: rgb(0, 0, 0);
+    
+}
+
+.dados2{
+    width: 234px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 100px;
+    color: rgb(0, 0, 0);
+}
+
+
+.boletos{
+    width: 234px;
+    float: left;
+    color: rgb(0, 0, 0);
+
+}
+
+.boletos2{
+    width: 234px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 52px;
+
+}
+
+.boxBoleto{
+    width: 500px;
+    padding: 20px;
+    margin: 10px 0;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+}
+
+
+.boletos p{
+    margin-top: 18px;
+    color: #000;
+
+}
+
+
+.boletos2 p{
+    margin-top: 18px;
+    color: #000;
+
+}
+
+.boletos h6{
+    margin-top: 18px;
+}
+
+
+.boletos2 h6{
+    margin-top: 18px;
+}
+
+.demonstrativo{
+    padding: 50px;
+    text-align: center;
+    
+}
+
+
+.demonstrativo h3{
+    margin-bottom: 40px;
+    color: #fff;
+
+}
+
+#tableNota{
+    margin: 20px;
+}
+#tableNota tr td input {
+    margin: 10px;
+}
+.success{
+ 
+    color: green;
+}
+
+.danger{
+ 
+    color: red;
+}
+
+
+.oferta{
+    width: 234px;
+    float: left;
+
+}
+
+
+.oferta2{
+    width: 234px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 130px;
+
+}
+
+
+.oferta p{
+    margin-top: 18px;
+
+}
+
+
+.oferta h3{
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+
+.acordo{
+    width: 234px;
+    float: left;
+    
+
+}
+
+
+.acordo2{
+    width: 234px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 130px;
+    
+
+}
+
+
+.acordo p{
+    margin-top: 18px;
+
+}
+
+.acordo h3{
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+
+.confissao h3{
+    color: #fff;
+}
+
+#select{
+    margin: 20px;
+    width: 230px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.boxMatricula{
+    margin: 20px 0;
+}

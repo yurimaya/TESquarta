@@ -1,0 +1,250 @@
+/* css da home */
+body{
+    margin: 0%;
+    background-color: rgb(150, 166, 179);
+}
+
+*,*::after,*::before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 0%;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(50, 50, 170, 0.829);
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.TopNav{
+    overflow: hidden;
+    background-color: rgb(111, 111, 153);
+
+}
+
+.TopNav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.TopNav a:hover{
+    background-color: rgb(36, 36, 75);
+    color: black;
+} 
+
+
+
+section div .caixa{
+    background-color: rgba(0, 0, 0, 0.61);
+    margin-top: 2%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 1200px; 
+    height:800px; 
+    padding: 40px;
+}
+
+/*css do login*/
+
+.login{
+    margin-top: 60px;
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card{
+    background: rgba(0, 0, 0, 0.60);
+    padding: 40px;
+    border-radius: 2px;
+    width: 280px;
+  
+}
+
+.card-header{
+    padding-bottom: 50px;
+    opacity: 0.8;
+    color: #fff;
+   
+}
+
+card-header::after{
+    content: " ";
+    width: 70px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+.card-content label{
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.usuario{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.usuario input{
+    margin-top: 10px;
+    padding: 0 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+.submit{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    color: #e1e1e1;
+    margin: 0 0;
+}
+.submit a{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/** FAZ A ANIMAÇÃO DA FOTO*/
+.galery {
+    width: 900px;
+    height: 600px;
+    background-color: rgb(247, 247, 247);
+    overflow: hidden;
+
+}
+.galery .fotos {
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+}
+.galery .fotos img {
+  
+    width: 900px;
+    height:600px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+}
+/*cenraliza a caixa que fica rodando as inamegns */
+.caixa .galery{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+
+
+@keyframes animacao {
+    0% { margin-left: 0; }
+    20% { margin-left: 0; }
+    25% { margin-left: -100%; }
+    45% { margin-left: -100%; }
+    50% { margin-left: -200%; }
+    70% { margin-left: -200%; }
+    75% { margin-left: -300%; }
+    95% { margin-left: -300%; }
+    100% { margin-left: -400%; }
+}
+
+ footer{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+ }
+
+.Tudo{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+ }
+
+ /*as informações do home*/
+#Info1 { 
+    width: 320px;
+    width: 320px;
+    display: inline-block;
+    margin: 2%;
+    margin-left: 30px; /*aqui da para centralizar as informaçoes */
+}
+#Info2 {
+    width: 320px;
+    width:320px;
+    display: inline-block;
+    margin: 2%;
+    margin-left: 30px; /*aqui da para centralizar as informaçoes */
+}
+#Info3 {
+    width: 320px;
+    width: 320px;
+    display: inline-block;
+    margin: 2%;
+    margin-left: 30px; /*aqui da para centralizar as informaçoes */
+}
+
+/*imagem de baixo do home*/
+img{  
+    width: 1100px;
+    height:600px; 
+}
+
+/*parte das div de aulas */
+.Aulas{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+}
+.aula{
+    display: inline-block;
+    margin: 2%;
+    background-color: rgb(206, 196, 209);
+    width: 150px;
+    height:150px; 
+
+}
+h1{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
